@@ -18,7 +18,7 @@ Swift 5.3
 １画面構成で、現在の天気、温度、湿度の確認と、今日のおすすめコーデを確認することができます。
 
 ## 使用API
-TNQL API (https://api.rakuten.net/legrand-legrand-default/api/tnql-coords-trial-v2/pricing)
+TNQL API (https://api.rakuten.net/legrand-legrand-default/api/tnql-coords-trial-v2/pricing)   
 OpenWeather (https://openweathermap.org/api)
 
 ## SDK
