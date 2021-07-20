@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7FE2D1E926A56FAD00C6EC36 /* WeartherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE2D1E826A56FAD00C6EC36 /* WeartherApp.swift */; };
+		7FE2D1EB26A56FAD00C6EC36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE2D1EA26A56FAD00C6EC36 /* ContentView.swift */; };
+		7FE2D1ED26A56FAF00C6EC36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FE2D1EC26A56FAF00C6EC36 /* Assets.xcassets */; };
+		7FE2D1F026A56FAF00C6EC36 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FE2D1EF26A56FAF00C6EC36 /* Preview Assets.xcassets */; };
+		7FE2D1FA26A5705100C6EC36 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE2D1F926A5705100C6EC36 /* ContentViewModel.swift */; };
+		7FE2D1FE26A570B800C6EC36 /* JSONRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE2D1FD26A570B800C6EC36 /* JSONRequest.swift */; };
+		7FE2D20026A570DC00C6EC36 /* TNQLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE2D1FF26A570DC00C6EC36 /* TNQLRequest.swift */; };
+		7FE2D20226A5710300C6EC36 /* OpenWeatherRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE2D20126A5710300C6EC36 /* OpenWeatherRequest.swift */; };
+		7FE2D20426A5711C00C6EC36 /* TNQL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE2D20326A5711C00C6EC36 /* TNQL.swift */; };
+		7FE2D20626A5713700C6EC36 /* OpenWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE2D20526A5713700C6EC36 /* OpenWeather.swift */; };
+		7FE2D20826A5716800C6EC36 /* TNQLProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE2D20726A5716800C6EC36 /* TNQLProperties.swift */; };
+		7FE2D20A26A5719100C6EC36 /* OpenWeatherProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE2D20926A5719100C6EC36 /* OpenWeatherProperties.swift */; };
+		7FE2D20C26A571B600C6EC36 /* TNQL.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7FE2D20B26A571B600C6EC36 /* TNQL.plist */; };
+		7FE2D20E26A5724700C6EC36 /* OpenWeather.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7FE2D20D26A5724700C6EC36 /* OpenWeather.plist */; };
+		7FE2D21026A6A1FC00C6EC36 /* Notification+Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE2D20F26A6A1FC00C6EC36 /* Notification+Name.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7FE2D1E526A56FAD00C6EC36 /* Wearther.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wearther.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FE2D1E826A56FAD00C6EC36 /* WeartherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeartherApp.swift; sourceTree = "<group>"; };
+		7FE2D1EA26A56FAD00C6EC36 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7FE2D1EC26A56FAF00C6EC36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FE2D1EF26A56FAF00C6EC36 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7FE2D1F126A56FAF00C6EC36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FE2D1F926A5705100C6EC36 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		7FE2D1FD26A570B800C6EC36 /* JSONRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONRequest.swift; sourceTree = "<group>"; };
+		7FE2D1FF26A570DC00C6EC36 /* TNQLRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TNQLRequest.swift; sourceTree = "<group>"; };
+		7FE2D20126A5710300C6EC36 /* OpenWeatherRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWeatherRequest.swift; sourceTree = "<group>"; };
+		7FE2D20326A5711C00C6EC36 /* TNQL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TNQL.swift; sourceTree = "<group>"; };
+		7FE2D20526A5713700C6EC36 /* OpenWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWeather.swift; sourceTree = "<group>"; };
+		7FE2D20726A5716800C6EC36 /* TNQLProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TNQLProperties.swift; sourceTree = "<group>"; };
+		7FE2D20926A5719100C6EC36 /* OpenWeatherProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWeatherProperties.swift; sourceTree = "<group>"; };
+		7FE2D20B26A571B600C6EC36 /* TNQL.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TNQL.plist; sourceTree = "<group>"; };
+		7FE2D20D26A5724700C6EC36 /* OpenWeather.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = OpenWeather.plist; sourceTree = "<group>"; };
+		7FE2D20F26A6A1FC00C6EC36 /* Notification+Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification+Name.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FE2D1E226A56FAD00C6EC36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FE2D1DC26A56FAD00C6EC36 = {
+			isa = PBXGroup;
+			children = (
+				7FE2D1E726A56FAD00C6EC36 /* Wearther */,
+				7FE2D1E626A56FAD00C6EC36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FE2D1E626A56FAD00C6EC36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FE2D1E526A56FAD00C6EC36 /* Wearther.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FE2D1E726A56FAD00C6EC36 /* Wearther */ = {
+			isa = PBXGroup;
+			children = (
+				7FE2D1E826A56FAD00C6EC36 /* WeartherApp.swift */,
+				7FE2D1F726A5700300C6EC36 /* View */,
+				7FE2D1F826A5702400C6EC36 /* ViewModel */,
+				7FE2D1FB26A5706500C6EC36 /* Model */,
+				7FE2D1FC26A5706C00C6EC36 /* Property */,
+				7FE2D1EC26A56FAF00C6EC36 /* Assets.xcassets */,
+				7FE2D1F126A56FAF00C6EC36 /* Info.plist */,
+				7FE2D1EE26A56FAF00C6EC36 /* Preview Content */,
+			);
+			path = Wearther;
+			sourceTree = "<group>";
+		};
+		7FE2D1EE26A56FAF00C6EC36 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7FE2D1EF26A56FAF00C6EC36 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7FE2D1F726A5700300C6EC36 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7FE2D1EA26A56FAD00C6EC36 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7FE2D1F826A5702400C6EC36 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7FE2D1F926A5705100C6EC36 /* ContentViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7FE2D1FB26A5706500C6EC36 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7FE2D1FD26A570B800C6EC36 /* JSONRequest.swift */,
+				7FE2D1FF26A570DC00C6EC36 /* TNQLRequest.swift */,
+				7FE2D20126A5710300C6EC36 /* OpenWeatherRequest.swift */,
+				7FE2D20326A5711C00C6EC36 /* TNQL.swift */,
+				7FE2D20526A5713700C6EC36 /* OpenWeather.swift */,
+				7FE2D20F26A6A1FC00C6EC36 /* Notification+Name.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7FE2D1FC26A5706C00C6EC36 /* Property */ = {
+			isa = PBXGroup;
+			children = (
+				7FE2D20726A5716800C6EC36 /* TNQLProperties.swift */,
+				7FE2D20B26A571B600C6EC36 /* TNQL.plist */,
+				7FE2D20926A5719100C6EC36 /* OpenWeatherProperties.swift */,
+				7FE2D20D26A5724700C6EC36 /* OpenWeather.plist */,
+			);
+			path = Property;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FE2D1E426A56FAD00C6EC36 /* Wearther */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FE2D1F426A56FAF00C6EC36 /* Build configuration list for PBXNativeTarget "Wearther" */;
+			buildPhases = (
+				7FE2D1E126A56FAD00C6EC36 /* Sources */,
+				7FE2D1E226A56FAD00C6EC36 /* Frameworks */,
+				7FE2D1E326A56FAD00C6EC36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wearther;
+			productName = Wearther;
+			productReference = 7FE2D1E526A56FAD00C6EC36 /* Wearther.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FE2D1DD26A56FAD00C6EC36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					7FE2D1E426A56FAD00C6EC36 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 7FE2D1E026A56FAD00C6EC36 /* Build configuration list for PBXProject "Wearther" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FE2D1DC26A56FAD00C6EC36;
+			productRefGroup = 7FE2D1E626A56FAD00C6EC36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FE2D1E426A56FAD00C6EC36 /* Wearther */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FE2D1E326A56FAD00C6EC36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FE2D1F026A56FAF00C6EC36 /* Preview Assets.xcassets in Resources */,
+				7FE2D20E26A5724700C6EC36 /* OpenWeather.plist in Resources */,
+				7FE2D20C26A571B600C6EC36 /* TNQL.plist in Resources */,
+				7FE2D1ED26A56FAF00C6EC36 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FE2D1E126A56FAD00C6EC36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FE2D1EB26A56FAD00C6EC36 /* ContentView.swift in Sources */,
+				7FE2D21026A6A1FC00C6EC36 /* Notification+Name.swift in Sources */,
+				7FE2D20A26A5719100C6EC36 /* OpenWeatherProperties.swift in Sources */,
+				7FE2D20026A570DC00C6EC36 /* TNQLRequest.swift in Sources */,
+				7FE2D20826A5716800C6EC36 /* TNQLProperties.swift in Sources */,
+				7FE2D1E926A56FAD00C6EC36 /* WeartherApp.swift in Sources */,
+				7FE2D1FA26A5705100C6EC36 /* ContentViewModel.swift in Sources */,
+				7FE2D20226A5710300C6EC36 /* OpenWeatherRequest.swift in Sources */,
+				7FE2D1FE26A570B800C6EC36 /* JSONRequest.swift in Sources */,
+				7FE2D20626A5713700C6EC36 /* OpenWeather.swift in Sources */,
+				7FE2D20426A5711C00C6EC36 /* TNQL.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7FE2D1F226A56FAF00C6EC36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7FE2D1F326A56FAF00C6EC36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FE2D1F526A56FAF00C6EC36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Wearther/Preview Content\"";
+				DEVELOPMENT_TEAM = V9N7A7622Y;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Wearther/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.ac.jec.cm.Wearther;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7FE2D1F626A56FAF00C6EC36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Wearther/Preview Content\"";
+				DEVELOPMENT_TEAM = V9N7A7622Y;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Wearther/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.ac.jec.cm.Wearther;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FE2D1E026A56FAD00C6EC36 /* Build configuration list for PBXProject "Wearther" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FE2D1F226A56FAF00C6EC36 /* Debug */,
+				7FE2D1F326A56FAF00C6EC36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FE2D1F426A56FAF00C6EC36 /* Build configuration list for PBXNativeTarget "Wearther" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FE2D1F526A56FAF00C6EC36 /* Debug */,
+				7FE2D1F626A56FAF00C6EC36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FE2D1DD26A56FAD00C6EC36 /* Project object */;
+}
